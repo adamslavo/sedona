@@ -379,4 +379,16 @@ body {
 	font-family:  'PT Sans', sans-serif;
 }
 
+.social-links {
+	display: flex;
+}
+
+.social-links a img{
+	width: 60px;
+}
+
+.social-links a{
+	margin: 10px;
+}
+
 /*-----------------END-------------------*/
