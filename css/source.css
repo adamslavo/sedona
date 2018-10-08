@@ -99,6 +99,7 @@ body {
 .start-header {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 30px;
+	text-transform: uppercase;
 }
 
 /*--------------END------------------*/
@@ -116,7 +117,6 @@ body {
 
 .features1-textinfo {
 	display: flex;
-	width: 40%;
 	text-align: center;
 	align-items: center;
 	flex-direction: column;
@@ -187,28 +187,37 @@ body {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	width: 100%;
-	height: 400px;
+	height: 300px;
 	vertical-align: middle;
 }
 
 .hostel {
-	padding-top: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 	align-items: center;
 	text-align: center;
+	height: 250px;
 	margin: 30px;
 }
 
 .meal {
-	padding-top: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 	align-items: center;
 	text-align: center;
+	height: 250px;
 	margin: 30px;
 }
 
 .gifts {
-	padding-top: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 	align-items: center;
 	text-align: center;
+	height: 250px;
 	margin: 30px;
 }
 
@@ -223,6 +232,7 @@ body {
 	text-transform: uppercase;
 	font-size: 16px;
 	font-family: 'PT Sans', sans-serif; 
+	color: #333333;
 }
 
 /*---------------END-------------------*/
@@ -233,6 +243,7 @@ body {
 	display: flex;
 	width: 100%;
 	height: 450px;
+	background-color: #81b3d2;
 }
 
 .features2-pic {
@@ -243,13 +254,99 @@ body {
 	background-repeat: no-repeat;
 }
 
-.textinfo-header {
-	width: 100%;
+.features2-textinfo {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.features2-textinfo span{
+	color: #fff;
+	font-size: 24px;
+	font-family:  'PT Sans', sans-serif; 
 }
 
 /*----------------END--------------------*/
 
+/*---------------START-------------------*/
 
+.features3 {
+	display: flex;
+	align-items: center;
+	height: 250px;
+	justify-content: space-around;
+	background-color: #eeeeee;
+	flex-wrap: wrap;
+}
 
+.features3-block1 {
+	text-align: center;
+	font-family:  'PT Sans', sans-serif; 
+}
 
+.features3-block2 {
+	text-align: center;
+	font-family:  'PT Sans', sans-serif; 
+}
 
+.features3-block3{
+	text-align: center;
+	font-family:  'PT Sans', sans-serif; 
+}
+
+.features3-desc {
+	width: 250px;
+	text-transform: uppercase;
+	color: #333333;
+}
+
+.features3-header {
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+/*-----------------END-------------------*/
+/*----------------START------------------*/
+
+ .search-hotels {
+ 	margin: 5px;
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	padding-bottom: 60px;
+ }
+
+.search-header {
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family:  'PT Sans', sans-serif;
+	text-align: center;		
+}
+
+.search-desc {
+	font-family:  'PT Sans', sans-serif;
+	font-size: 24px;
+	width: 650px;
+	text-align: center;	
+	padding-bottom: 30px;
+}
+
+.search-btn {
+	padding: 25px 230px;
+	background-color: #81b3d2;
+	text-decoration: none;
+	border: none;
+	font-size: 24px;
+	color: #fff;
+}
+
+.search-footer {
+	background-image: url(../image/map.png);
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*-----------------END-------------------*/
