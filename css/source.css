@@ -311,7 +311,7 @@ body {
  }
 
 .search-header {
-	font-size: 1em;
+	font-size: 2em;
 	text-transform: uppercase;
 	font-family:  'PT Sans', sans-serif;
 	text-align: center;		
@@ -331,7 +331,7 @@ body {
 	background-color: #81b3d2;
 	text-decoration: none;
 	border: none;
-	font-size: 24px;
+	font-size: 1.5em;
 	color: #fff;
 	text-align: center;
 	text-transform: uppercase;
@@ -366,7 +366,7 @@ body {
 	text-decoration: none;
 	color: #000000;
 	font-family:  'PT Sans', sans-serif;
-	font-size: 30px;
+	font-size: 2em;
 }
 
 .more-info {
