@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	max-width: 100%;
 }
 body {
 	margin: 0;
@@ -34,8 +35,7 @@ body {
 
 .nav-left{
 	vertical-align: middle;
-	padding-top: 15px;
-	margin: 0;
+	margin: auto;
 }
 
 .nav-left a {
@@ -60,19 +60,23 @@ body {
 .under-wrap {
 	background-image: url(../image/back-desktop.png); 
 	width:  	100%;
-	height: 	750px; 
+	height: 	100%; 
 	background-size: cover;
 	background-position: top;
 	background-repeat: no-repeat;
 	z-index: -10;
-	flex-direction: column;
 	align-items: center;
 	justify-content: space-evenly;
+	padding-bottom: 100px;
 }
 
 .under-wrap {
 	display: flex;
-	flex-direction: column;
+	flex-direction: column;	
+}
+
+.welcome {
+	padding-top: 50px;
 }
 
 /*-------------START-----------------*/
@@ -82,12 +86,11 @@ body {
 	justify-content: space-around;
 	vertical-align: middle;
 	width: 100%;
-	height: 400px;
+	margin: 50px 0 50px 0;
 }
 
 .features-start-block {
 	text-align: center;
-	margin-top: 100px;
 }
 
 .features-start-block span{
@@ -110,9 +113,9 @@ body {
 	display: flex;
 	background-color: #81b3d2;
 	width: 100%;
-	height: 450px;
+	height: 100%;
 	margin: 0;
-	padding: 0;
+	padding: 
 }
 
 .features1-textinfo {
@@ -143,6 +146,7 @@ body {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 24px;
 	color: #fff;
+	text-transform: uppercase;
 }
 
 .features1-pic {
@@ -186,39 +190,27 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	width: 100%;
-	height: 300px;
+	max-width: 100%;
 	vertical-align: middle;
 }
 
 .hostel {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
+	padding: 30px;
 	align-items: center;
 	text-align: center;
-	height: 250px;
-	margin: 30px;
 }
 
 .meal {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
+	padding: 30px;
 	align-items: center;
 	text-align: center;
-	height: 250px;
-	margin: 30px;
+
 }
 
 .gifts {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
+	padding: 30px;
 	align-items: center;
-	text-align: center;
-	height: 250px;
-	margin: 30px;
+	text-align: center;	
 }
 
 .recomendation-header p{
@@ -228,11 +220,12 @@ body {
 }
 
 .recomendation-desc p{
-	width: 300px;
 	text-transform: uppercase;
 	font-size: 16px;
 	font-family: 'PT Sans', sans-serif; 
 	color: #333333;
+	width: 100%;
+	max-width: 300px;
 }
 
 /*---------------END-------------------*/
@@ -242,7 +235,7 @@ body {
 .features2 {
 	display: flex;
 	width: 100%;
-	height: 450px;
+	height: 100%;
 	background-color: #81b3d2;
 }
 
@@ -274,10 +267,11 @@ body {
 .features3 {
 	display: flex;
 	align-items: center;
-	height: 250px;
+	width: 100%;
 	justify-content: space-around;
 	background-color: #eeeeee;
 	flex-wrap: wrap;
+	padding: 50px;
 }
 
 .features3-block1 {
@@ -310,15 +304,14 @@ body {
 /*----------------START------------------*/
 
  .search-hotels {
- 	margin: 5px;
  	display: flex;
  	flex-direction: column;
  	align-items: center;
- 	padding-bottom: 60px;
+ 	padding-bottom: 30px;
  }
 
 .search-header {
-	font-size: 40px;
+	font-size: 1em;
 	text-transform: uppercase;
 	font-family:  'PT Sans', sans-serif;
 	text-align: center;		
@@ -326,19 +319,22 @@ body {
 
 .search-desc {
 	font-family:  'PT Sans', sans-serif;
-	font-size: 24px;
-	width: 650px;
+	font-size: 1em;
+	width: 100%;
 	text-align: center;	
-	padding-bottom: 30px;
 }
 
 .search-btn {
-	padding: 25px 230px;
+	width: 100%;
+	max-width: 350px;
+	padding: 15px 40px 15px 40px;  
 	background-color: #81b3d2;
 	text-decoration: none;
 	border: none;
 	font-size: 24px;
 	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .search-footer {
@@ -347,17 +343,21 @@ body {
 	height: 500px;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: top;
 }
 
 /*-----------------END-------------------*/
 
 /*----------------START------------------*/
-
+.footer {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
 .footer-info {
-	margin: 10px;
 	display: flex;
 	justify-content: space-between;
-	padding: 60px;
 	align-items: center;
 }
 
